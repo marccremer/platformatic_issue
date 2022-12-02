@@ -1,0 +1,13 @@
+{
+  "server": {
+    "hostname": "127.0.0.1",
+    "port": "3042"
+  },
+  "core": {
+    "connectionString": "sqlite://./base.db"
+  },
+  "migrations": {
+    "dir": "./migrations",
+    "autoApply": true
+  }
+}
